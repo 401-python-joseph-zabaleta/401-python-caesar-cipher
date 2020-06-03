@@ -29,13 +29,12 @@ def break_code(element):
     for key in range(26):
         counter = 0
         something = decrypt(element, key)
-        something_list = something.split(' ')
-
-        for word in something_list:
+        
+        for word in something.split(' '):
             if word in word_list:
                 counter += 1
         
-        if (counter / len(something_list)) >= 0.5:
+        if (counter / len(something.split(' '))) >= 0.5:
             return something
         else:
             continue

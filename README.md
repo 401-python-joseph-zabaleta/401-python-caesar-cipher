@@ -1,7 +1,7 @@
 # Lab: Class 18 - Caesar Cipher
 
 ## Open Git Pull Requests  
-
+[https://github.com/joseph-zabaleta/caesar-cipher/pull/1](https://github.com/joseph-zabaleta/caesar-cipher/pull/1)  
 
 ## Overview  
 Crytographic classic - the Caesar Cipher. Devise a method to encrypt a message that can then be decrypted when supplied with the corresponding key.  
@@ -16,7 +16,6 @@ Crytographic classic - the Caesar Cipher. Devise a method to encrypt a message t
 - [x] Create a `decrypt` function that takes in encrypted text and numeric shift which will restore the encrypted text back to its original form as long as correct key is supplied.  
 - [x] BREAK the ciphter so that an encrypted message can be transformed into its original state WITHOUT access to the key.  
 - [x] Devise a method for the computer to determine if code was broken with minimal human guidance.  
-
 
 ## Implementation Notes:  
 - In order to accomplish this task you'll need access to a `corpus` of English words.  

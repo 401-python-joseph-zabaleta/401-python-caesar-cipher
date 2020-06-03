@@ -8,6 +8,8 @@ from caesar_cipher.caesar_cipher import (
 @pytest.mark.parametrize(
     'element, key, expected',
     [
+        ('abc', 1, 'bcd'),
+        ('abc', 27, 'bcd'),
         ('abcde', 1, 'bcdef'),
         ('abc123de', 1, 'bcd123ef'),
         ('Zz', 1, 'Aa'),
